@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: gray;
+}
+main{
+	background-color: white;
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px red;
+}
+.photo{
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px)/16 * 9);
+	margin: 10px;
+	background-color: orange;
+	background-position: center;
+	background-size: cover;
+	border: 8px solid blue;
+	border-radius: 35px;
+}
+.photo:hover{
+	transform: rotate(10deg) scale(2);
+}
+h1{
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+}
+.photo1{
+	background-image: url(../img/img1.jpg);
+}
+.photo2{
+	background-image: url(../img/img2.jpeg);
+}
+.photo3{
+	background-image: url(../img/img3.jpg);
+}
+.photo4{
+	background-image: url(../img/img5.jpg);
+}
+td{
+	border: 3px solid orange;
+	font-size: 30px;
+	padding: 30px;
+	color: red;
+	text-align: center;
+	border-radius: 35px;
+}
+table, .spisok{
+	width: 70%;
+	margin: auto;
+}
+.spisok{
+	font-size: 30px;
+}
+
+ol{
+	color: red !important;
+}
+li{
+	border: 10px groove orange;
+}
+
+.menu a{
+	text-decoration: none;
+	border: 1px solid green;
+	padding: 5px;
+	border-radius: 3px;
+	font-size: 24px;
+}
+
+.menu{
+	margin-bottom: 20px;
+}
